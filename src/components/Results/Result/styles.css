@@ -1,0 +1,13 @@
+.game-result {
+    color: #3f1052;
+    border: 2px solid #3f1052;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 6px;
+}
+
+.game-result a {
+    outline: none;
+    text-decoration: none;
+    color: #3f1052;
+}

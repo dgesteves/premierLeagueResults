@@ -1,0 +1,39 @@
+.table {
+    margin: 120px auto 0 auto;
+    border: 2px solid #3f1052;
+    border-radius: 5px;
+    width: 600px;
+}
+
+.table th {
+    border: 2px solid #3f1052;
+    background-color: #3f1052;
+    padding: 6px;
+    color: #fff;
+}
+
+.table td {
+    color: #3f1052;
+    padding: 6px;
+}
+
+.teams-name {
+    display: flex;
+}
+
+.teams-name img {
+    width: 24px;
+    margin-right: 6px;
+}
+
+.teams-name a {
+    outline: none;
+    text-decoration: none;
+    color: #3f1052;
+}
+
+.table td.points {
+    color: #3f1052;
+    font-weight: bold;
+    background-color: #ccc;
+}

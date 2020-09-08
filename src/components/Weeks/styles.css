@@ -1,0 +1,36 @@
+.weeks {
+    width: 600px;
+    margin: 120px auto 0 auto;
+}
+
+.weeks .weeks-list {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3f1052;
+    border: 2px solid #3f1052;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.weeks .weeks-list a {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.weeks .weeks-list a:hover {
+    background-color: #fff;
+    color: #3f1052;
+}
+
+.weeks-list a.selected {
+    background-color: #fff;
+    color: #3f1052;
+}
+
+.loading {
+    margin: 120px auto 0 auto;
+    width: 600px;
+}

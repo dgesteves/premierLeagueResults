@@ -1,0 +1,30 @@
+.team {
+    margin: 120px auto 0 auto;
+    width: 600px;
+}
+
+.team .team-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.team .team-header h2 {
+    color: #3f1052;
+}
+
+.team .team-status {
+    display: flex;
+    padding: 6px;
+    border: 2px solid #3f1052;
+    border-radius: 5px;
+    width: 300px;
+    color: #3f1052;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.team h2 {
+    color: #3f1052;
+    margin-bottom: 16px;
+}

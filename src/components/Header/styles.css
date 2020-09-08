@@ -1,0 +1,42 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+    background-color: #3f1052;
+    box-shadow: 0 3px 2px #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 80px;
+    margin: 0 16px;
+}
+
+.header h2 {
+    color: #fff;
+}
+
+.list {
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.list a {
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 6px;
+}
+
+.list a:hover {
+    border-radius: 5px;
+    font-size: 18px;
+}
