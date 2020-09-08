@@ -1,9 +1,18 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import App from '../components/App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/PREMIER LEAGUE RESULTS/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders', () => {
+  const { debug, getByText } = render(<App />);
+  const appTitle = getByText('PREMIER LEAGUE RESULTS');
+  const tableLink = getByText('TABLE');
+  const weeksLink = getByText('WEEKS');
+
+  expect(appTitle).toBeInTheDocument();
+  expect(tableLink).toBeInTheDocument();
+  expect(weeksLink).toBeInTheDocument();
+
+  fireEvent.click(tableLink);
+
+  debug();
 });
