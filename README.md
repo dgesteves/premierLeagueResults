@@ -15,19 +15,6 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 
-# REACT CHALLENGE
-
-Your mission is to improve a web application which displays the Premier League results.
-There is a public API to fetch relevant data. It's mostly set up already.
-
-We're providing you the initial setup and dependencies, but if you need, feel free to add further dependencies while keeping the core untouched (React 16, React Router 4.x, SuperAgent or similar XHR lib).
-
-To run the project, you need to have Node (and NPM) installed:
-
-    npm install
-    npm start
-
-
 ## Tasks to perform
 
 * Create the Result pure component. A winning team should have its name in bold.
